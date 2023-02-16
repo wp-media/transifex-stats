@@ -1,0 +1,16 @@
+/**
+ * Icon Settings Page
+ * ----------------------------------------------------------------------------
+ */
+#icon-transifex-stats {
+	background-image: url(../images/transifex_inverse.png);
+	background-position: 2px -5px;
+}
+
+/**
+ * Input Fields
+ * ----------------------------------------------------------------------------
+ */
+#cptw input.code {
+	min-width: 400px;
+}

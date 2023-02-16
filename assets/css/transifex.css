@@ -1,0 +1,68 @@
+/**
+ * Transifex Stats WordPress plugin
+ * ----------------------------------------------------------------------------
+ */
+.transifex-stats-contributors.loading,
+.transifex-stats.loading {
+	background: transparent url('../images/loading.gif') no-repeat 50% 50%;
+	padding: 20px;
+}
+.transifex-stats-list {
+	list-style: none !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	padding-left: 0 !important;
+}
+.transifex-stats-list__item {
+	line-height: 1.5;
+	list-style: none !important;
+	margin-bottom: .5em;
+	overflow: hidden;
+	padding: 0 !important;
+}
+.transifex-stats-list__item:before {
+	display: none !important;
+	content: '';
+}
+.transifex-stats-list__item--label {
+	float: left;
+	padding-right: 8px;
+	width: 30%;
+}
+.transifex-stats-list__item--statbar {
+	overflow: hidden;
+	padding-right: 5em;
+	position: relative;
+}
+.transifex-stats-list__item--graph {
+	background-color: #eee;
+	border-radius: 2px;
+	-webkit-box-shadow: inset 1px 1px 5px #ddd;
+	-moz-box-shadow: inset 1px 1px 5px #ddd;
+	box-shadow: inset 1px 1px 5px #ddd;
+	float: left;
+	height: 1.5em;
+	margin: 0;
+	margin-right: 1px;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+.transifex-stats-list__item--graph-progress {
+	background: #3ece9d;
+	background-repeat: repeat-x;
+	border-radius: 2px;
+	height: 100%;
+	left: 0;
+	position: absolute;
+}
+.transifex-stats-list__item--completed {
+	color: #31c190;
+	font-size: .923em;
+	padding-left: .8em;
+	padding-right: .8em;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	z-index: 2;
+}
